@@ -1,0 +1,38 @@
+body {
+    width: 100%;
+    min-height: 100%;
+    font: normal 19px/1.618 'Muli', Arial, Helvetica, sans-serif;
+    color: #222222;
+    position: relative;
+    background: #f1f1f1;
+}
+img {
+    max-width: 100%;
+}
+div {
+    border: 0px solid black;
+}
+section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.container {
+    width: 100%;
+    max-width: 1400px;
+}
+.about-nx-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+@media screen and (max-width:768px) {
+    .about-nx-grid {
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+/* v2 */
+
