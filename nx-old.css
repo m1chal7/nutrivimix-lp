@@ -10,7 +10,7 @@ img {
     max-width: 100%;
 }
 div {
-    border: 1px solid black;
+    border: 0px solid black;
 }
 section {
     display: flex;
@@ -26,36 +26,10 @@ section {
     grid-template-columns: 1fr 1fr;
     justify-items: center;
 }
-.nx-packshot {
-    order: 1
-}
-.nxtab-packshot {
-    order: 2 
-}
-.nx-sklad {
-    order: 3
-}
-.nxtab-sklad {
-    order: 4
-}
-.nx-stosowanie {
-    order: 5
-}
-.nxtab-stosowanie {
-    order: 6
-}
-.nx-wskazanie {
-    order: 7
-}
-.nxtab-wskazanie {
-    order: 8;
-}
+
 @media screen and (max-width:768px) {
     .about-nx-grid {
         grid-template-columns: 1fr;
-    }
-    .about-nx-item {
-        order: 0;
     }
     
 }
