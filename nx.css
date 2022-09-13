@@ -37,7 +37,7 @@ section.skladniki-nx {
 .skladnik-nx-item {
     background: #fff;
     padding: 50px 70px;
-    border-radius: 10px;
+    border-radius: 7px;
 }
 .skladnik-nx-item h2 {
     margin: 0 auto;
@@ -98,6 +98,7 @@ section.skladniki-nx {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
+    row-gap: 50px;
 }
 .nx-packshot {
     order: 1
@@ -123,9 +124,26 @@ section.skladniki-nx {
 .nxtab-wskazanie {
     order: 8;
 }
+.about-nx-item {
+    max-width: 450px;
+}
+.nx-packshot {
+    background: #fff;
+    padding: 50px;
+    border-radius: 7px;
+
+}
+.nx-packshot img {
+    width: 100%;
+}
+.nx-packshot h2 {
+
+}
+
 @media screen and (max-width:768px) {
     .about-nx-grid {
         grid-template-columns: 1fr;
+        padding: 0 20px;
     }
     .about-nx-item {
         order: 0;
