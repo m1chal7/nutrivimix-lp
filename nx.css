@@ -274,4 +274,46 @@ section.skladniki-nx {
 }
 
 
+/* client proof */
 
+.client-proof-nx {
+    background-color: #feebee;
+    padding: 50px 0;
+}
+.client-proof-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.client-proof-number {
+    font-size: 60px;
+    color: #f490a2;
+    font-weight: 800;
+    padding-right: 15px;
+}
+.client-proof-text {
+    font-weight: 600;
+    font-size: 28px;
+}
+.client-proof-subtext {
+    font-weight: 300;
+    display: block;
+    font-size: 22px;
+    padding-top: 15px;
+}
+
+@media screen and (max-width:768px) {
+    .client-proof-box {
+        flex-wrap: wrap;
+    }
+    .client-proof-text {
+        text-align: center;
+        font-size: 22px;
+        padding: 10px;
+    }
+    .client-proof-subtext {
+        font-size: 18px;
+        padding: 15px 10px;
+    }
+    
+}
